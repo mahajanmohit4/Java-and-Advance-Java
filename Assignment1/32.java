@@ -2,10 +2,13 @@ class Student{
     private int rno;
     private String name;
     private static int count;
+    Student(){
+              count++;
+    }
     void setData(int rno , String name){
         this.rno = rno;
         this.name = name;
-        count++;
+      
     }
     void showData(){
         System.out.println("Roll No. : "+rno+"\nName : "+name);
