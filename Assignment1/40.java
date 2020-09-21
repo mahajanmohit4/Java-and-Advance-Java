@@ -5,4 +5,4 @@ class Main{
         int max = Arrays.stream(arr).max().getAsInt();
         System.out.println(max);
     }
-}
+} 
