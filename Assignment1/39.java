@@ -3,7 +3,7 @@ class Product{
     int pid;
     int price;
     int quantity;
-    int amt;
+    // int amt;
     static int a[] = new int[5];
     static int i=0;
 
@@ -49,7 +49,7 @@ class Main{
 
 
         System.out.println("Highest Price is "+highestPrice);
-        for(int k = 0 ; k<arrPrice.length ;k++){
+        for(int k = 0 ; k<arrPrice.length ;k++){ // 4 = 500
             if(arrPrice[k]==highestPrice){
                 System.out.println("Pid of highest Price is : "+arr[k].pid);
             }
@@ -58,6 +58,6 @@ class Main{
         for( Product j : arr) j.show();
        
         for ( int l=0 ; l<5; l++)
-             System.out.println("Total amount of "+i+" : "+Product.a[l]);
+             System.out.println("Total amount of "+l+" : "+Product.a[l]);
     }
 }
