@@ -1,6 +1,6 @@
 import java.util.*;
 interface Drawable{
-    // float PI = 3.14;
+    //final float PI = 3.14;
     int a = 100;
     // public static final int a =100;
     //   void draw();
