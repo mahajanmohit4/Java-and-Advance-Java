@@ -15,7 +15,7 @@ class Voter extends Exception{
 	 
 }
 
-public class Question054 {
+public class Question59 {
 	static void ageCheck(int age) throws Voter{
 		if(age>18) {
 			System.out.println("age is valid : " +age);
@@ -37,5 +37,4 @@ public class Question054 {
 		}
 	}
 }
-
 
